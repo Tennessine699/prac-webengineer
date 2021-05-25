@@ -4,3 +4,8 @@ const countUp = () => {
   const countElement = document.querySelector('#count')
   countElement.innerText = 'マウス左部摩耗度: ' + count
 }
+const countReset = () => {
+  count=0
+  const countElement = document.querySelector('#count')
+  countElement.innerText = 'マウス左部摩耗度: ' + count
+}
